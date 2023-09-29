@@ -95,25 +95,37 @@
 
 /* Grid Part 3 */
 
-#grid-section3 .grid {
+/* Grid Part 3 */
 
+#grid-section3 .grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Two columns, with the first column being twice as wide */
+  grid-template-rows: 100px 300px 100px; /* Three rows with specified heights */
+  gap: 10px; /* Gap between rows and columns */
 }
 
 #grid-section3 .box1 {
-
+  grid-row: 1 / span 2; /* Span 2 rows, starting from the first row */
+  grid-column: 1; /* First column */
 }
 
 #grid-section3 .box2 {
-
+  grid-row: 2; /* Second row */
+  grid-column: 2; /* Second column */
 }
 
 #grid-section3 .box3 {
-
+  grid-row: 3; /* Third row */
+  grid-column: 1; /* First column */
 }
 
 #grid-section3 .box4 {
-
+  grid-row: 3; /* Third row */
+  grid-column: 2; /* Second column */
 }
+
+/* end Grid Part 3 */
+
 
 /* end Grid Part 3 */
 
