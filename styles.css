@@ -1,10 +1,15 @@
-
-
 /* Flexbox Part 1 */
 
-#flex-section1 ul {
+#flex-section1 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Equal space between items */
+  list-style: none; /* Remove list bullets */
+  padding: 0; /* Remove default list padding */
+}
+
+#flex-section1 nav li {
+  flex: 1; /* Make each button take equal space */
+  margin-right: 10px; /* Adjust the space between buttons */
 }
 
 /* end Flexbox Part 1 */
