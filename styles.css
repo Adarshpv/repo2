@@ -74,15 +74,21 @@
 
 /* Grid Part 2 */
 
+/* Grid Part 2 */
+
 #grid-section2 .gridboxblue {
-  grid-row: 1 / 4; /* Span from row 1 to row 4 (covers all rows) */
-  grid-column: 1 / 4; /* Span from column 1 to column 4 (covers all columns) */
-  z-index: 1; /* Place the blue box above the red box */
+  grid-row: 1 / span 3;
+  grid-column: 1 / span 3;
+  align-self: end;
 }
 
 #grid-section2 .gridboxred {
-  z-index: 0; /* Place the red box below the blue box */
+  grid-row: 2 / 3;
+  grid-column: 1 / 3;
 }
+
+/* end Grid Part 2 */
+
 
 /* end Grid Part 2 */
 
