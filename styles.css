@@ -36,15 +36,16 @@
 /* Flexbox Part 3 */
 #flex-section3 .box {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align items to the left vertically */
 }
 #flex-section3 .tags ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: flex-start; /* Start items from the left */
   list-style: none;
 }
+
 
 
 
