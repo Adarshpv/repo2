@@ -16,24 +16,25 @@
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #flex-section2 li {
-
+  flex: 1;
+  order: 2;
 }
 
 #flex-section2 .item1 {
-
+  order: 1;
 }
 
 #flex-section2 .item2 {
-
+  order: 3;
 }
 
-#flex-section2 .item3 {
-
-}
+/* end Flexbox Part 2 */
 
 /* end Flexbox Part 2 */
 
