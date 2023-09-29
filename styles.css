@@ -15,6 +15,8 @@
 
 /* Flexbox Part 2 */
 
+/* Flexbox Part 2 */
+
 #flex-section2 ul {
   display: flex;
   flex-wrap: wrap;
@@ -33,6 +35,9 @@
 #flex-section2 .item2 {
   order: 3;
 }
+
+/* end Flexbox Part 2 */
+
 
 /* end Flexbox Part 2 */
 
