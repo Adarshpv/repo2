@@ -37,7 +37,7 @@
 #flex-section3 .box {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 #flex-section3 .tags ul {
   display: flex;
