@@ -1,32 +1,12 @@
+
+
 /* Flexbox Part 1 */
 
-#flex-section1 nav {
-  display: flex;
-  justify-content: space-between; /* Equal spacing between items */
-}
-
 #flex-section1 ul {
-  list-style: none; /* Remove list bullets */
-  padding: 0; /* Remove default list padding */
-  display: flex; /* Make list items flex containers */
+  display: flex;
+  justify-content: space-between;
 }
 
-#flex-section1 li {
-  margin-right: 10px; /* Adjust the space between buttons */
-}
-
-#flex-section1 .btn {
-  text-decoration: none;
-  padding: 10px 20px; /* Add padding to buttons for better clickability */
-  background-color: #007BFF;
-  color: #fff;
-  border-radius: 5px;
-  transition: background-color 0.5s ease, color 0.5s ease; /* Add transitions */
-}
-
-#flex-section1 .btn:hover {
-  background-color: #0056b3;
-}
 
 /* end Flexbox Part 1 */
 
