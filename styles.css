@@ -54,12 +54,20 @@
 /* Grid Part 1 */
 
 
+/* Grid Part 1 */
+
 #grid-section1 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
-  row-height: 100px;
+  grid-template-columns: repeat(4, 1fr); /* Create 4 equal columns */
+  grid-gap: 20px; /* Add a 20px gap between columns and rows */
 }
+
+/* Make rows auto-generate with a height of 100px */
+#grid-section1 .grid > * {
+  height: 100px;
+}
+
+/* end Grid Part 1 */
 
 
 /* end Grid Part 1 */
