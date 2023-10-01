@@ -78,8 +78,8 @@
 /* Grid Part 2 */
 
 #grid-section2 .gridboxblue {
-  grid-row: 1 / span 3;
-  grid-column: 1 / span 3;
+  grid-row: 1 / span 3; 
+  grid-column: 2 / span 3;
   align-self: end;
 }
 
@@ -106,8 +106,9 @@
 }
 
 #grid-section3 .box1 {
-  grid-row: 1 / span 3; /* Span 3 rows, starting from the first row */
+  grid-row: 1 / span 4; /* Span 3 rows, starting from the first row */
   grid-column: 1; /* First column */
+
 }
 
 #grid-section3 .box2 {
@@ -121,8 +122,9 @@
 }
 
 #grid-section3 .box4 {
-  grid-row: 3 / span 3; /* Third row */
+  grid-row: 3 / span 4; /* Third row */
   grid-column: 1; /* first column */
+  align-self: end;
 }
 
 /* end Grid Part 3 */
