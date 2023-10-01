@@ -1,151 +1,106 @@
 /* Flexbox Part 1 */
-
 #flex-section1 ul {
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
-  padding: 0; /* Remove any padding */
-  margin: 0; /* Remove any margin */
-  
+  padding: 0; /* Removing any padding */
+  margin: 0; /* Removing any margin */
 }
-
 /* end Flexbox Part 1 */
 
 
-
 /* Flexbox Part 2 */
-
-
 #flex-section2 ul {
   display: flex;
   list-style-type: none;
-  padding: 0; /* Remove any padding */
-  margin: 0; /* Remove any margin */
+  padding: 0; /* Removing any paddings */
+  margin: 0; /* Removing any Margin */
 }
-
-
+/* Aligning the items in the required order */
 #flex-section2 li {
   flex: 1;
   order: 2;
 }
-
 #flex-section2 .item1 {
   order: 1;
 }
-
 #flex-section2 .item2 {
   order: 3;
 }
-
-/* end Flexbox Part 2 */
-
 /* end Flexbox Part 2 */
 
 
 /* Flexbox Part 3 */
 #flex-section3 .box {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Align items to the left vertically */
+  flex-direction: column; /* Stacking the items vertically */
+  justify-content: center; /* Aligning the box to center horizontally */
+  align-items: center; /* Aligning the box to center vertically */
 }
 #flex-section3 .tags ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start; /* Start items from the left */
   list-style: none;
+  padding: 0; /* Remove any padding */
 }
-
-
-
-
 /* end Flexbox Part 3 */
 
 
 /* Grid Part 1 */
-
-
-/* Grid Part 1 */
-
 #grid-section1 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Create 4 equal columns */
   grid-gap: 20px; /* Add a 20px gap between columns and rows */
 }
-
-/* Make rows auto-generate with a height of 100px */
+/* Making rows auto-generate with a height of 100px as required */
 #grid-section1 .grid > * {
   height: 100px;
 }
-
 /* end Grid Part 1 */
 
 
-/* end Grid Part 1 */
-
 /* Grid Part 2 */
-
-/* Grid Part 2 */
-
 #grid-section2 .gridboxblue {
   grid-row: 1 / 4; 
   grid-column: 2 / 4;
-  z-index: 1;
+  z-index: 1; /*overlapping the blue box over red */
 }
-
 #grid-section2 .gridboxred {
   grid-row: 2 / 3;
   grid-column: 1 / 3;
 }
-
-/* end Grid Part 2 */
-
-
 /* end Grid Part 2 */
 
 
 /* Grid Part 3 */
-
-/* Grid Part 3 */
-
 #grid-section3 .grid {
   display: grid;
-  grid-template-columns: 2fr 1fr; /* Two columns, with the first column being twice as wide */
-  grid-template-rows: 100px 300px 100px; /* Three rows with specified heights */
+  grid-template-columns: 2fr 1fr; /* Two columns, with the first column being twice as wide as per question */
+  grid-template-rows: 100px 300px 100px; /* Three rows with specified heights as per the question */
   gap: 10px; /* Gap between rows and columns */
 }
-
 #grid-section3 .box1 {
-  grid-row: 1 ; /* Span 3 rows, starting from the first row */
-  grid-column: 1 / span 2 ; /* First column */
+  grid-row: 1 ; /* Starting from the first row */
+  grid-column: 1 / span 2 ; /* Span 2 columns starting from first column */
   gap: 10px;
 }
-
 #grid-section3 .box2 {
   grid-row: 2; /* Second row */
   grid-column: 2; /* Second column */
 }
-
 #grid-section3 .box3 {
   grid-row: 2; /* Second row */
   grid-column: 1; /* First column */
 }
-
 #grid-section3 .box4 {
   grid-row: 3 ; /* Third row */
-  grid-column: 1 / span 2 ; /* first column */
-
+  grid-column: 1 / span 2 ; /*  Span 2 columns starting from first column */
 }
-
-/* end Grid Part 3 */
-
-
 /* end Grid Part 3 */
 
 
 /* Transition Part */
-
-/* Transition Part */
-
 #transition-section .box a {
 	display: inline-block;
 	background-color: #ccc;
@@ -154,14 +109,9 @@
 	text-decoration: none;
 	transition: background-color 0.5s, color 0.5s; /* Add transition properties */
 }
-
 #transition-section .box a:hover {
 	background-color: #cc0000;
 	color: #fff;
 	transition: background-color 3s, color 3s; /* Add transition properties */
 }
-
-/* end Transition Part */
-
-
 /* end Transition Part */
