@@ -37,12 +37,12 @@
 #flex-section3 .box {
   display: flex;
   justify-content: center; /* Center horizontally */
-  align-items: flex-start; /* Align items to the left vertically */
+  align-items: center; /* Align items to the left vertically */
 }
 #flex-section3 .tags ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; /* Start items from the left */
+  justify-content: center; /* Start items from the left */
   list-style: none;
 }
 
