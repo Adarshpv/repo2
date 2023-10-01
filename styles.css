@@ -106,7 +106,7 @@
 }
 
 #grid-section3 .box1 {
-  grid-row: 1 / span 2; /* Span 2 rows, starting from the first row */
+  grid-row: 1 / span 3; /* Span 2 rows, starting from the first row */
   grid-column: 1; /* First column */
 }
 
@@ -121,7 +121,7 @@
 }
 
 #grid-section3 .box4 {
-  grid-row: 3 / span2; /* Third row */
+  grid-row: 3 / span3; /* Third row */
   grid-column: 1; /* first column */
 }
 
