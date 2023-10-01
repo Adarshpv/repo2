@@ -116,13 +116,13 @@
 }
 
 #grid-section3 .box3 {
-  grid-row: 3; /* Third row */
+  grid-row: 2; /* Second row */
   grid-column: 1; /* First column */
 }
 
 #grid-section3 .box4 {
-  grid-row: 3; /* Third row */
-  grid-column: 2; /* Second column */
+  grid-row: 3 / span2; /* Third row */
+  grid-column: 1; /* first column */
 }
 
 /* end Grid Part 3 */
